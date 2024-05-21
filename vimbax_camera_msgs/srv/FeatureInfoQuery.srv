@@ -1,5 +1,0 @@
-string[] feature_names
-FeatureModule feature_module
----
-FeatureInfo[] feature_info
-Error error
