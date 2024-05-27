@@ -1,0 +1,12 @@
+Source: ros-humble-vimbax-camera-examples
+Section: misc
+Priority: optional
+Maintainer: Dennis Langenkamp <dennis.langenkamp@alliedvision.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-pytest <!nocheck>, ros-humble-ament-cmake-python, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-cv-bridge, ros-humble-image-transport, ros-humble-launch-pytest <!nocheck>, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclpy, ros-humble-vimbax-camera-events, ros-humble-vimbax-camera-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-vimbax-camera-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-cv-bridge, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclpy, ros-humble-vimbax-camera-events, ros-humble-vimbax-camera-msgs, ros-humble-ros-workspace
+Description: VimbaX camera examples
