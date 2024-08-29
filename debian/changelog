@@ -1,0 +1,21 @@
+ros-humble-vmbc-interface (1.0.2-1bookworm) bookworm; urgency=high
+
+  * Fixed ROS buildfarm build issues.
+  * Updated maintainers.
+  * Contributors: Dennis Langenkamp
+
+ -- Dennis Langenkamp <dennis.langenkamp@alliedvision.com>  Sun, 26 May 2024 16:00:00 -0000
+
+ros-humble-vmbc-interface (1.0.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Dennis Langenkamp <dennis.langenkamp@alliedvision.com>  Mon, 20 May 2024 16:00:00 -0000
+
+ros-humble-vmbc-interface (1.0.0-1bookworm) bookworm; urgency=high
+
+  * First release.
+
+ -- Dennis Langenkamp <dennis.langenkamp@alliedvision.com>  Sun, 28 Apr 2024 16:00:00 -0000
+
+
