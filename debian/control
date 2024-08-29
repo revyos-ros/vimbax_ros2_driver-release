@@ -1,0 +1,12 @@
+Source: ros-humble-vimbax-camera
+Section: misc
+Priority: optional
+Maintainer: Dennis Langenkamp <dennis.langenkamp@alliedvision.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-pytest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-camera-info-manager, ros-humble-image-transport, ros-humble-launch-pytest <!nocheck>, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-vimbax-camera-events, ros-humble-vimbax-camera-msgs, ros-humble-vmbc-interface, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-vimbax-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-camera-info-manager, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-vimbax-camera-events, ros-humble-vimbax-camera-msgs, ros-humble-vmbc-interface, ros-humble-ros-workspace
+Description: ROS 2 node package for Vimba X cameras
